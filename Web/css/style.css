@@ -1,0 +1,62 @@
+*{
+    font-size: 30px;
+    font-family: monaco;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*影响块级元素第一行*/
+/*p::first-line{
+    background-color: pink;
+    color: red;
+}*/
+
+/*影响块级元素第一个字母*/
+/*div::first-letter{
+    background-color: pink;
+    color: red;
+}*/
+
+
+/*标签的什么位置*/
+/* a::before{
+    content: url("https://cdn.wispx.cn/wallpaper/bing/2019/10/19/5bcfd890b32d3038ef4ed9d0321bb912.jpg");
+}
+a::after{
+    content: "  This is a good address!";
+} */
+
+/*用户选中样式*/
+/* ::selection{
+    background-color: red;
+    color: aqua;
+} */
+
+
+/*链接未被访问过时候*/
+a:link{
+    color: pink;
+}
+
+
+/*被访问过时候*/
+a:visited{
+    color: red;
+}
+
+/*鼠标放上去时*/
+a:hover{
+    color: black;
+}
+
+/*鼠标点击不放时*/
+a:active{
+    color: green;
+}
+
+input#name:focus{
+    background-color: cyan;
+}
+input#password:focus{
+    background-color: pink;
+}
